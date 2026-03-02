@@ -694,3 +694,156 @@ WARNING: Unmatched cancel notification for request id 20
 2026.03.02 22:58:19 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Main.java. Using fallback presentation compiler.[0m
 Mar 02, 2026 10:58:23 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2026.03.02 22:58:47 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Main.java. Using fallback presentation compiler.[0m
+Mar 02, 2026 10:58:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.03.02 22:59:07 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Main.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:09 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Main.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:09 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Main.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:09 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Main.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:10 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Main.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:10 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Main.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:11 WARN  no build target for: /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Main.java[0m
+2026.03.02 22:59:11 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Main.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:11 WARN  Running javac-semanticdb failed for file:///home/marwan/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/Main.java. Output:
+[0m
+2026.03.02 22:59:13 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:13 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:13 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:13 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:15 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Appointment.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:15 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Appointment.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:15 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Appointment.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:18 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Medication.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:18 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Medication.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:18 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Medication.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:18 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/MedicalRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:18 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/MedicalRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:20 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Prescription.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:20 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Prescription.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:22 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:22 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:22 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:22 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:22 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:24 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:24 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:25 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:26 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:26 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:26 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:26 WARN  no build target for: /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java[0m
+2026.03.02 22:59:26 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:26 WARN  Running javac-semanticdb failed for file:///home/marwan/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/Report.java. Output:
+[0m
+2026.03.02 22:59:26 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:27 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:27 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:27 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:27 WARN  no build target for: /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java[0m
+2026.03.02 22:59:27 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:34 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:34 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:34 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:36 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:36 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:38 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:38 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:38 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:38 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:38 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:39 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:39 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:39 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:39 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:39 WARN  no build target for: /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java[0m
+2026.03.02 22:59:39 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:42 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:42 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:43 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:44 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:44 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:44 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:45 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:45 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:45 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:45 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:45 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:46 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:46 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:46 WARN  no build target for: /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java[0m
+2026.03.02 22:59:46 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Report.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:45 WARN  Running javac-semanticdb failed for file:///home/marwan/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/Report.java. Output:
+[0m
+2026.03.02 22:59:53 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:53 WARN  no build target for: /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java[0m
+2026.03.02 22:59:53 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:53 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:54 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:54 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:54 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:54 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:54 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:55 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:56 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:56 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:56 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:56 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:56 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:57 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:57 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:57 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:57 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:57 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:57 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:57 WARN  no build target for: /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java[0m
+2026.03.02 22:59:57 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/BillingRecord.java. Using fallback presentation compiler.[0m
+2026.03.02 22:59:57 WARN  Running javac-semanticdb failed for file:///home/marwan/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/BillingRecord.java. Output:
+[0m
+2026.03.02 23:00:04 WARN  no build target for: /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Appointment.java[0m
+2026.03.02 23:00:04 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Appointment.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:04 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Appointment.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:04 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Appointment.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:05 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Appointment.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:06 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Appointment.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:05 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Appointment.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:05 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Appointment.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:06 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Appointment.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:07 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Appointment.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:07 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Appointment.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:07 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Appointment.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:07 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Appointment.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:07 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Appointment.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:07 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Appointment.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:07 WARN  no build target for: /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Appointment.java[0m
+2026.03.02 23:00:07 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Appointment.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:07 WARN  Running javac-semanticdb failed for file:///home/marwan/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/Appointment.java. Output:
+[0m
+2026.03.02 23:00:26 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:28 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:28 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:28 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:29 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:28 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:28 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:28 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:29 WARN  no build target for: /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java[0m
+2026.03.02 23:00:29 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:29 WARN  Running javac-semanticdb failed for file:///home/marwan/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/Logger.java. Output:
+[0m
+2026.03.02 23:00:29 INFO  Created report: Optional[file:///home/marwan/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/Logger.java][0m
+2026.03.02 23:00:29 INFO  QDox parse error in file:///home/marwan/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/Logger.java (full report at: "/home/marwan/projects/Medalyze-java-implementation/Deliverable #1/.metals/.reports/metals-full/2026-03-02/r_qdox-error_23-00-29-305.md")[0m
+2026.03.02 23:00:30 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:30 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:29 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:30 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:30 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:30 WARN  no build target for: /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java[0m
+2026.03.02 23:00:30 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:30 WARN  Running javac-semanticdb failed for file:///home/marwan/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/Logger.java. Output:
+[0m
+2026.03.02 23:00:31 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:31 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:31 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java. Using fallback presentation compiler.[0m
+2026.03.02 23:00:31 WARN  no build target for: /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java[0m
+2026.03.02 23:00:30 INFO  no build target found for /home/marwan/projects/Medalyze-java-implementation/Deliverable #1/medalyze/src/main/java/com/medalyze/Logger.java. Using fallback presentation compiler.[0m
