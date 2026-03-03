@@ -2,16 +2,19 @@ package com.medalyze;
 
 public class Logger {
 
-    private static Logger instance;
+    private static volatile Logger instance;
 
     // private constructor prevents instantiation
     private Logger() {
     }
 
-    // lazy initialization
     public static Logger getInstance() {
         if (instance == null) {
-            instance = new Logger();
+            synchronized (Logger.class) {
+                if (instance == null) {
+                    instance = new Logger();
+                }
+            }
         }
         return instance;
     }
