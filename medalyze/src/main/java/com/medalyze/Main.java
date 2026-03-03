@@ -31,5 +31,11 @@ public class Main {
         Logger logger1 = Logger.getInstance();
 
         System.out.println("Same logger instance? " + (logger0 == logger2));
+        
+        // DatabaseConnection Singleton Test
+        DatabaseConnection db1 = DatabaseConnection.getInstance();
+        DatabaseConnection db2 = DatabaseConnection.getInstance();
+
+        System.out.println("Same DB instance? " + (db1 == db2));
     }
 }

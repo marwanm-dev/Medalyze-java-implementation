@@ -23,4 +23,9 @@ public class Prescription {
     public void updateStatus(String newStatus) {
         this.status = newStatus;
     }
+    
+    public void savePrescription() {
+        DatabaseConnection db = DatabaseConnection.getInstance();
+        db.executeQuery("Saving prescription: " + prescriptionID);
+    }
 }

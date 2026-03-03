@@ -28,4 +28,9 @@ public class BillingRecord {
         this.insuranceStatus = status;
         Logger.getInstance().log("Billing " + billingID + " insurance updated to: " + status);
     }
+
+    public void saveBilling() {
+        DatabaseConnection db = DatabaseConnection.getInstance();
+        db.executeQuery("Saving billing record: " + billingID);
+    }
 }
