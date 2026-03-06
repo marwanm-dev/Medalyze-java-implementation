@@ -22,6 +22,10 @@ public class Prescription {
         return status;
     }
 
+    public Patient getPatient() {
+        return patient;
+    }
+
     public void updateStatus(String newStatus) {
         this.status = newStatus;
     }

@@ -22,10 +22,14 @@ public class MedicalRecord {
         return historySummary;
     }
 
+    public Patient getPatient() {
+        return patient;
+    } 
+
     public void updateSummary(String newSummary) {
         this.historySummary = newSummary;
     }
-    
+
     public void saveRecord() {
         DatabaseConnection db = DatabaseConnection.getInstance();
         db.executeQuery("Saving medical record: " + recordID);

@@ -32,6 +32,21 @@ public class Appointment {
         return status;
     }
 
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public LocalTime getTime() {
+        return time;
+    }
+
+    public Patient getPatient() {
+        return patient;
+    }
+
+    public Doctor getDoctor() {
+        return doctor;
+    }
     public void cancel() {
         this.status = "Cancelled";
         Logger.getInstance().log("Appointment " + appointmentID + " cancelled.");
