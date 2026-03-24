@@ -1,4 +1,4 @@
-package com.medalyze.model;
+package com.medalyze;
 
 public class Medication {
 

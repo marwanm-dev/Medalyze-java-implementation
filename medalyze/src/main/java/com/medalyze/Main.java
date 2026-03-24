@@ -1,5 +1,5 @@
 package com.medalyze;
-
+import com.medalyze.notification.*;
 import com.medalyze.flyweight.Specialization;
 import com.medalyze.flyweight.SpecializationFactory;
 import com.medalyze.factory.report.BillingReportCreator;
@@ -18,6 +18,8 @@ import com.medalyze.billing.BillingRecord;
 import com.medalyze.billing.Prescription;
 import com.medalyze.dashboard.AppointmentProduct;
 import com.medalyze.dashboard.ReportProduct;
+import com.medalyze.reportbridge.*;
+import com.medalyze.reportbridge.Report;
 
 /**
  * Main class to test core creational design patterns:
@@ -114,5 +116,39 @@ public class Main {
         System.out.println();
 
         System.out.println("=== Medalyze System Test Completed Successfully ===");
+        
+        System.out.println("\n=== Bridge Pattern Test: Notifications ===");
+
+        // Create senders
+        NotificationSender emailSender = new EmailSender();
+        NotificationSender smsSender = new SMSSender();
+
+        // Create notification (bridge)
+        Notification emailNotif = new AppointmentNotification(emailSender);
+        Notification smsNotif = new AppointmentNotification(smsSender);
+
+        // Use existing patient from your system OR create one
+        Patient patient = new Patient("P1", "Ali", "ali@email.com");
+
+        // Send notifications
+        emailNotif.notifyUser(patient.getContactInfo(), "Your appointment is confirmed!");
+        smsNotif.notifyUser(patient.getContactInfo(), "Reminder: Appointment tomorrow!");
+        
+        System.out.println("\n=== Bridge Pattern Test: Reports ===");
+
+        // Formats
+        ReportFormat pdf = new PDFFormat();
+        ReportFormat csv = new CSVFormat();
+        ReportFormat html = new HTMLFormat();
+
+        // Reports
+        Report medicalPDF = new MedicalReport(pdf);
+        Report billingCSV = new BillingReportBridge(csv);
+        Report appointmentHTML = new AppointmentReportBridge(html);
+
+        // Generate
+        medicalPDF.generate();
+        billingCSV.generate();
+        appointmentHTML.generate();
     }
 }
