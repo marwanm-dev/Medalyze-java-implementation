@@ -1,5 +1,7 @@
 package com.medalyze;
 
+import com.medalyze.flyweight.Specialization;
+import com.medalyze.flyweight.SpecializationFactory;
 import com.medalyze.factory.report.BillingReportCreator;
 import com.medalyze.factory.report.MedicalReportCreator;
 import com.medalyze.factory.report.PrescriptionReportCreator;
@@ -26,6 +28,13 @@ import com.medalyze.dashboard.ReportProduct;
 public class Main {
 
     public static void main(String[] args) {
+        Specialization s1 = 
+            SpecializationFactory.getSpecialization("Cardiology");
+        
+        Specialization s2 = 
+            SpecializationFactory.getSpecialization("Cardiology");
+        
+        System.out.println(s1 == s2);
 
         System.out.println("=== Starting Medalyze System Test ===\n");
 
