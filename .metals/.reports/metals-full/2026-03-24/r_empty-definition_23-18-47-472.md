@@ -1,3 +1,14 @@
+error id: file://<HOME>/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/Main.java:_empty_/Specialization#
+file://<HOME>/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/Main.java
+empty definition using pc, found symbol in pc: _empty_/Specialization#
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+
+offset: 4583
+uri: file://<HOME>/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/Main.java
+text:
+```scala
 package com.medalyze;
 import com.medalyze.notification.*;
 import com.medalyze.flyweight.Specialization;
@@ -30,7 +41,6 @@ import com.medalyze.reportbridge.Report;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("=== Starting Medalyze System Test ===\n");
         // =======================
         // Test Singleton Patterns
         // =======================
@@ -106,11 +116,9 @@ public class Main {
         selfPayPrescription.handlePrescription();
         System.out.println();
 
-        
-        // =========================
-        // Test Flyweight Pattern
-        // =========================
-        Specialization s1 = 
+        System.out.println("=== Medalyze System Test Completed Successfully ===");
+ 
+        Specializat@@ion s1 = 
             SpecializationFactory.getSpecialization("Cardiology");
         
         Specialization s2 = 
@@ -118,9 +126,9 @@ public class Main {
         
         System.out.println(s1 == s2);
 
-        // =========================
-        // Test Bridge Pattern: Notifications
-        // =========================
+        System.out.println("=== Starting Medalyze System Test ===\n");
+
+
         System.out.println("\n=== Bridge Pattern Test: Notifications ===");
 
         // Create senders
@@ -154,7 +162,11 @@ public class Main {
         medicalPDF.generate();
         billingCSV.generate();
         appointmentHTML.generate();
-
-        System.out.println("=== Medalyze System Test Completed Successfully ===");
     }
 }
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: _empty_/Specialization#
