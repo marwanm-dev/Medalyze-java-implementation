@@ -1,18 +1,43 @@
-error id: file://<HOME>/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/Main.java:_empty_/BillingFactory#createPrescription#
+error id: file://<HOME>/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/Main.java:_empty_/Report#generate#
 file://<HOME>/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/Main.java
-empty definition using pc, found symbol in pc: _empty_/BillingFactory#createPrescription#
+empty definition using pc, found symbol in pc: _empty_/Report#generate#
 empty definition using semanticdb
 empty definition using fallback
 non-local guesses:
 
-offset: 3375
+offset: 6232
 uri: file://<HOME>/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/Main.java
 text:
 ```scala
 package com.medalyze;
+<<<<<<< HEAD
 
-import java.time.LocalDate;
-import java.time.LocalTime;
+=======
+import com.medalyze.notification.*;
+>>>>>>> 81b3f9b6f172007a661749da557d32df935e1319
+import com.medalyze.flyweight.Specialization;
+import com.medalyze.flyweight.SpecializationFactory;
+import com.medalyze.factory.report.BillingReportCreator;
+import com.medalyze.factory.report.MedicalReportCreator;
+import com.medalyze.factory.report.PrescriptionReportCreator;
+import com.medalyze.factory.report.ReportCreator;
+import com.medalyze.singleton.DatabaseConnection;
+import com.medalyze.singleton.Logger;
+import com.medalyze.abstractfactory.billing.BillingFactory;
+import com.medalyze.abstractfactory.billing.InsuranceBillingFactory;
+import com.medalyze.abstractfactory.billing.SelfPayBillingFactory;
+import com.medalyze.abstractfactory.dashboard.AdminDashboardFactory;
+import com.medalyze.abstractfactory.dashboard.DashboardFactory;
+import com.medalyze.abstractfactory.dashboard.DoctorDashboardFactory;
+import com.medalyze.billing.BillingRecord;
+import com.medalyze.billing.Prescription;
+import com.medalyze.dashboard.AppointmentProduct;
+import com.medalyze.dashboard.ReportProduct;
+<<<<<<< HEAD
+=======
+import com.medalyze.reportbridge.*;
+import com.medalyze.reportbridge.Report;
+>>>>>>> 81b3f9b6f172007a661749da557d32df935e1319
 
 /**
  * Main class to test core creational design patterns:
@@ -23,6 +48,13 @@ import java.time.LocalTime;
 public class Main {
 
     public static void main(String[] args) {
+        Specialization s1 = 
+            SpecializationFactory.getSpecialization("Cardiology");
+        
+        Specialization s2 = 
+            SpecializationFactory.getSpecialization("Cardiology");
+        
+        System.out.println(s1 == s2);
 
         System.out.println("=== Starting Medalyze System Test ===\n");
 
@@ -95,13 +127,49 @@ public class Main {
         BillingFactory selfPayFactory = new SelfPayBillingFactory();
 
         BillingRecord selfPayBilling = selfPayFactory.createBillingRecord();
-        Prescription selfPayPrescription = selfPayFactory.createPrescripti@@on();
+        Prescription selfPayPrescription = selfPayFactory.createPrescription();
 
         selfPayBilling.processBilling();
         selfPayPrescription.handlePrescription();
         System.out.println();
 
         System.out.println("=== Medalyze System Test Completed Successfully ===");
+        
+        System.out.println("\n=== Bridge Pattern Test: Notifications ===");
+
+     // Create senders
+     NotificationSender emailSender = new EmailSender();
+     NotificationSender smsSender = new SMSSender();
+
+     // Create notification (bridge)
+     Notification emailNotif = new AppointmentNotification(emailSender);
+     Notification smsNotif = new AppointmentNotification(smsSender);
+
+     // Use existing patient from your system OR create one
+     Patient patient = new Patient("P1", "Ali", "ali@email.com");
+
+     // Send notifications
+     emailNotif.notifyUser(patient.getContactInfo(), "Your appointment is confirmed!");
+     smsNotif.notifyUser(patient.getContactInfo(), "Reminder: Appointment tomorrow!");
+     
+     
+     
+     System.out.println("\n=== Bridge Pattern Test: Reports ===");
+
+  // Formats
+  ReportFormat pdf = new PDFFormat();
+  ReportFormat csv = new CSVFormat();
+  ReportFormat html = new HTMLFormat();
+
+  // Reports
+  Report medicalPDF = new MedicalReport(pdf);
+  Report billingCSV = new BillingReportBridge(csv);
+  Report appointmentHTML = new AppointmentReportBridge(html);
+
+  // Generate
+  medicalPDF.generate();
+  billingCSV.generate();
+  appointmentHTML.generat@@e();
     }
 }
 ```
@@ -109,4 +177,4 @@ public class Main {
 
 #### Short summary: 
 
-empty definition using pc, found symbol in pc: _empty_/BillingFactory#createPrescription#
+empty definition using pc, found symbol in pc: _empty_/Report#generate#

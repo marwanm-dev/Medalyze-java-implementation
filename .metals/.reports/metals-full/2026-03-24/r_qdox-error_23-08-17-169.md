@@ -1,21 +1,34 @@
-error id: file://<HOME>/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/DatabaseConnection.java
-file://<HOME>/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/DatabaseConnection.java
+error id: file://<HOME>/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/model/Doctor.java
+file://<HOME>/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/model/Doctor.java
 ### com.thoughtworks.qdox.parser.ParseException: syntax error @[1,1]
 
 error in qdox parser
 file content:
 ```java
 offset: 1
-uri: file://<HOME>/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/DatabaseConnection.java
+uri: file://<HOME>/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/model/Doctor.java
 text:
 ```scala
-p@@ackage com.medalyze
+<@@<<<<<< HEAD
+package com.medalyze.model;
 
-public class DatabaseConnection {
-  private static DatabaseConnection instance;
-  private DatabaseConnection() {
-    System.out.println("Database connection established.");
-  }
+public class Doctor {
+
+    private String doctorID;
+    private String specialty;
+
+    public Doctor(String doctorID, String specialty) {
+        this.doctorID = doctorID;
+        this.specialty = specialty;
+    }
+
+    public String getDoctorID() {
+        return doctorID;
+    }
+
+    public String getSpecialty() {
+        return specialty;
+    }
 }
 ```
 
@@ -44,7 +57,7 @@ com.thoughtworks.qdox.parser.impl.Parser.yyerror(Parser.java:2025)
 	scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:628)
 	scala.collection.AbstractIterator.foreach(Iterator.scala:1313)
 	scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:688)
-	scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:936)
+	scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:940)
 	scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
 	scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
 	scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
@@ -54,4 +67,4 @@ com.thoughtworks.qdox.parser.impl.Parser.yyerror(Parser.java:2025)
 ```
 #### Short summary: 
 
-QDox parse error in file://<HOME>/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/DatabaseConnection.java
+QDox parse error in file://<HOME>/projects/Medalyze-java-implementation/Deliverable%20%231/medalyze/src/main/java/com/medalyze/model/Doctor.java
