@@ -18,6 +18,16 @@ import com.medalyze.billing.BillingRecord;
 import com.medalyze.billing.Prescription;
 import com.medalyze.dashboard.AppointmentProduct;
 import com.medalyze.dashboard.ReportProduct;
+import com.medalyze.decorator.AppointmentService;
+import com.medalyze.decorator.BasicAppointment;
+import com.medalyze.decorator.BasicReport;
+import com.medalyze.decorator.EncryptedReport;
+import com.medalyze.decorator.InsuranceProcessing;
+import com.medalyze.decorator.OnlineConsultation;
+import com.medalyze.decorator.PriorityAppointment;
+import com.medalyze.decorator.SignedReport;
+import com.medalyze.decorator.WatermarkedReport;
+import com.medalyze.decorator.report.ReportComponent;
 import com.medalyze.reportbridge.*;
 import com.medalyze.reportbridge.Report;
 
@@ -155,6 +165,33 @@ public class Main {
         billingCSV.generate();
         appointmentHTML.generate();
 
+        // =========================
+        // Test Decorator case 1: Appointment
+        // =========================
+        AppointmentService appointment = new BasicAppointment();
+
+        appointment = new OnlineConsultation(appointment);
+        appointment = new PriorityAppointment(appointment);
+        appointment = new InsuranceProcessing(appointment);
+
+        System.out.println("Appointment Details:");
+        System.out.println(appointment.getDescription());
+        System.out.println("Total Cost: $" + appointment.getCost());
+
+        // =========================
+        // Test Decorator case 2: Reports
+        // =========================
+        ReportComponent report = new BasicReport();
+
+        report = new SignedReport(report);
+        report = new EncryptedReport(report);
+        report = new WatermarkedReport(report);
+
+        System.out.println("Report Details:");
+        System.out.println(report.getContent());
+        System.out.println("Total Cost: $" + report.getCost());
+        
         System.out.println("=== Medalyze System Test Completed Successfully ===");
+
     }
 }
