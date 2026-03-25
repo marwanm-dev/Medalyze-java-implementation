@@ -129,9 +129,9 @@ public class Main {
         System.out.println(s1 == s2);
 
         // =========================
-        // Test Bridge Pattern: Notifications
+        // Test Bridge Pattern Case 1: Notifications
         // =========================
-        System.out.println("\n=== Bridge Pattern Test: Notifications ===");
+        System.out.println("\n=== Bridge Pattern Case 1 Test: Notifications ===");
 
         // Create senders
         NotificationSender emailSender = new EmailSender();
@@ -148,7 +148,10 @@ public class Main {
         emailNotif.notifyUser(patient.getContactInfo(), "Your appointment is confirmed!");
         smsNotif.notifyUser(patient.getContactInfo(), "Reminder: Appointment tomorrow!");
         
-        System.out.println("\n=== Bridge Pattern Test: Reports ===");
+        // =========================
+        // Test Bridge Pattern Case 2: Reports
+        // =========================
+        System.out.println("\n=== Bridge Pattern Case 2 Test: Reports ===");
 
         // Formats
         ReportFormat pdf = new PDFFormat();
