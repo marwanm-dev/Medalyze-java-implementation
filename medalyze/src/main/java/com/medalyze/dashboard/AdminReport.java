@@ -1,9 +1,10 @@
 package com.medalyze.dashboard;
+import com.medalyze.singleton.Logger;
 
 public class AdminReport implements ReportProduct {
 
     @Override
     public void generateReport() {
-        System.out.println("Admin generating report");
+        Logger.getInstance().log("Admin generating report");
     }
 }
