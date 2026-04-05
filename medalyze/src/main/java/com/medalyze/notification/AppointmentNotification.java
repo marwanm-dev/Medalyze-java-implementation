@@ -17,7 +17,6 @@ public class AppointmentNotification extends Notification {
         String msg = "Appointment on " +
                 appointment.getDate() + " at " + appointment.getTime();
 
-        // ✅ FIX HERE
         sender.send(appointment.getPatient().getContactInfo(), msg);
     }
 }
