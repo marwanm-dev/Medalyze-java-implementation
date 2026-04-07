@@ -1,2 +1,23 @@
+# Build
 target/
+bin/
+
+# Java
+*.class
+
+# Logs & DB
+*.log
+*.db
+
+# IDE (Eclipse / VSCode)
+.project
+.settings/
+.classpath
+.vscode/
+
+# Metals
 .metals/
+
+# OS
+.DS_Store
+Thumbs.db
