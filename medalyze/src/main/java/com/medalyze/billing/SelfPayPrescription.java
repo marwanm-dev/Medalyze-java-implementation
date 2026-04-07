@@ -1,5 +1,5 @@
 package com.medalyze.billing;
-import com.medalyze.singleton.Logger;
+import com.medalyze.infrastructure.Logger;
 
 public class SelfPayPrescription implements Prescription {
 

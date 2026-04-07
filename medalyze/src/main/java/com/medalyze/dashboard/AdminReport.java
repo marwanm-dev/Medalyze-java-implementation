@@ -1,5 +1,5 @@
 package com.medalyze.dashboard;
-import com.medalyze.singleton.Logger;
+import com.medalyze.infrastructure.Logger;
 
 public class AdminReport implements ReportProduct {
 

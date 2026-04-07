@@ -1,6 +1,6 @@
 package com.medalyze.model;
 
-import com.medalyze.singleton.DatabaseConnection;
+import com.medalyze.infrastructure.DatabaseConnection;
 
 public class MedicalRecord {
 

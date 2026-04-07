@@ -1,11 +1,9 @@
 package com.medalyze;
 
-import com.medalyze.singleton.*;
-import com.medalyze.factory.report.*;
-import com.medalyze.abstractfactory.billing.*;
-import com.medalyze.abstractfactory.dashboard.*;
-import com.medalyze.dashboard.*;
+import com.medalyze.infrastructure.*;
+import com.medalyze.reporting.*;
 import com.medalyze.billing.*;
+import com.medalyze.dashboard.*;
 
 public class MainD1 {
 

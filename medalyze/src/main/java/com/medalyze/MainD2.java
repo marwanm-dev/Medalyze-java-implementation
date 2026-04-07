@@ -1,28 +1,28 @@
 package com.medalyze;
 
-import com.medalyze.adapter.legacy.MedicalRecord;
-import com.medalyze.adapter.legacy.LegacyMedicalRecord;
-import com.medalyze.adapter.legacy.MedicalRecordAdapter;
-import com.medalyze.adapter.payment.PaymentGatewayAdapter;
-import com.medalyze.adapter.payment.PaymentProcessor;
-import com.medalyze.decorator.AppointmentService;
-import com.medalyze.decorator.BasicAppointment;
-import com.medalyze.decorator.BasicReport;
-import com.medalyze.decorator.EncryptedReport;
-import com.medalyze.decorator.InsuranceProcessing;
-import com.medalyze.decorator.OnlineConsultation;
-import com.medalyze.decorator.PriorityAppointment;
-import com.medalyze.decorator.SignedReport;
-import com.medalyze.decorator.WatermarkedReport;
-import com.medalyze.decorator.report.ReportComponent;
-import com.medalyze.flyweight.Specialization;
-import com.medalyze.flyweight.SpecializationFactory;
+import com.medalyze.legacy.MedicalRecord;
+import com.medalyze.legacy.LegacyMedicalRecord;
+import com.medalyze.legacy.MedicalRecordAdapter;
+import com.medalyze.payment.PaymentGatewayAdapter;
+import com.medalyze.payment.PaymentProcessor;
+import com.medalyze.appointment.AppointmentService;
+import com.medalyze.appointment.BasicAppointment;
+import com.medalyze.reporting.decorator.BasicReport;
+import com.medalyze.reporting.decorator.EncryptedReport;
+import com.medalyze.appointment.InsuranceProcessing;
+import com.medalyze.appointment.OnlineConsultation;
+import com.medalyze.appointment.PriorityAppointment;
+import com.medalyze.reporting.decorator.SignedReport;
+import com.medalyze.reporting.decorator.WatermarkedReport;
+import com.medalyze.reporting.decorator.report.ReportComponent;
+import com.medalyze.model.Specialization;
+import com.medalyze.model.SpecializationFactory;
 import com.medalyze.notification.AppointmentNotification;
 import com.medalyze.notification.EmailSender;
 import com.medalyze.notification.Notification;
 import com.medalyze.notification.NotificationSender;
 import com.medalyze.notification.SMSSender;
-import com.medalyze.reportbridge.*;
+import com.medalyze.reporting.export.*;
 import com.medalyze.model.Patient;
 
 public class MainD2 {

@@ -3,7 +3,7 @@ package com.medalyze.model;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-import com.medalyze.singleton.Logger;
+import com.medalyze.infrastructure.Logger;
 
 public class Appointment {
 
