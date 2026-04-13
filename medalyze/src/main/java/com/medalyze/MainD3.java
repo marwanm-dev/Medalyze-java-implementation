@@ -1,6 +1,7 @@
 package com.medalyze;
 
 import com.medalyze.reporting.*;
+import com.medalyze.model.*;
 
 public class MainD3 {
 
@@ -27,5 +28,27 @@ public class MainD3 {
         appointmentReport.generateReport();
 
         System.out.println();
+
+        // =========================
+        // Test Template Method Case 2: Patient Registration
+        // =========================
+        System.out.println("=== Template Method Case 2 Test: Patient Registration ===");
+
+        PatientRegistrationTemplate regular = new RegularPatientRegistration();
+        PatientRegistrationTemplate emergency = new EmergencyPatientRegistration();
+        PatientRegistrationTemplate insurance = new InsurancePatientRegistration();
+
+        System.out.println("Registering Regular Patient:");
+        regular.registerPatient();
+
+        System.out.println("\nRegistering Emergency Patient:");
+        emergency.registerPatient();
+
+        System.out.println("\nRegistering Insurance Patient:");
+        insurance.registerPatient();
+
+        System.out.println();
+
+        System.out.println("\n=== Deliverable 3 Completed Successfully ===");
     }
 }
