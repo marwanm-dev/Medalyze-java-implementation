@@ -12,6 +12,7 @@ public class Main {
       System.out.println("Choose what to run:");
       System.out.println("1 → Deliverable 1 (Creational Patterns)");
       System.out.println("2 → Deliverable 2 (Structural Patterns)");
+      System.out.println("2 → Deliverable 3 (Behavioral Patterns)");
       System.out.print("Enter choice: ");
 
       int choice = scanner.nextInt();
@@ -24,6 +25,10 @@ public class Main {
 
           case 2:
               MainD2.main(args);
+              break;
+
+          case 3:
+              MainD3.main(args);
               break;
 
           default:
