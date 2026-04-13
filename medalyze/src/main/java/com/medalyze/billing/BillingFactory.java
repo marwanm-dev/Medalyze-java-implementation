@@ -1,8 +1,5 @@
 package com.medalyze.billing;
 
-import com.medalyze.billing.BillingRecord;
-import com.medalyze.billing.Prescription;
-
 public interface BillingFactory {
 
     BillingRecord createBillingRecord();

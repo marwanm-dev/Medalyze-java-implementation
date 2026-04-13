@@ -1,10 +1,5 @@
 package com.medalyze.billing;
 
-import com.medalyze.billing.BillingRecord;
-import com.medalyze.billing.InsuranceBillingRecord;
-import com.medalyze.billing.InsurancePrescription;
-import com.medalyze.billing.Prescription;
-
 public class InsuranceBillingFactory implements BillingFactory {
 
     @Override

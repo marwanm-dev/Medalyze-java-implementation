@@ -1,10 +1,5 @@
 package com.medalyze.billing;
 
-import com.medalyze.billing.BillingRecord;
-import com.medalyze.billing.Prescription;
-import com.medalyze.billing.SelfPayBillingRecord;
-import com.medalyze.billing.SelfPayPrescription;
-
 public class SelfPayBillingFactory implements BillingFactory {
 
     @Override

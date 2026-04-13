@@ -1,8 +1,5 @@
 package com.medalyze.dashboard;
 
-import com.medalyze.dashboard.AppointmentProduct;
-import com.medalyze.dashboard.ReportProduct;
-
 public interface DashboardFactory {
 
     ReportProduct createReport();
