@@ -49,8 +49,6 @@ public class MainD3 {
 
         System.out.println();
 
-        System.out.println("\n=== Deliverable 3 Completed Successfully ===");
-
         // =========================
         // Test Strategy Case 1: Payment Processing
         // =========================
@@ -105,5 +103,7 @@ public class MainD3 {
         System.out.println(searchService.search(data, "2026-04-11"));
 
         System.out.println();
+        
+        System.out.println("\n=== Deliverable 3 Completed Successfully ===");
     }
 }
