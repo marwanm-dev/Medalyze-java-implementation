@@ -1,7 +1,12 @@
 package com.medalyze;
 
 import com.medalyze.reporting.*;
+import com.medalyze.appointment.AppointmentCoordinator;
+import com.medalyze.appointment.AppointmentMediator;
 import com.medalyze.model.*;
+import com.medalyze.appointment.Doctor;
+import com.medalyze.appointment.Patient;
+
 
 public class MainD3 {
 
@@ -105,5 +110,14 @@ public class MainD3 {
         System.out.println();
         
         System.out.println("\n=== Deliverable 3 Completed Successfully ===");
+
+        // ===== MEDIATOR TEST (APPOINTMENT) =====
+        AppointmentMediator mediator = new AppointmentCoordinator();
+        
+        Doctor doctor = new Doctor(mediator);
+        Patient patient = new Patient(mediator);
+        
+        patient.bookAppointment();
+        doctor.requestAppointment();
     }
 }
