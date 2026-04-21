@@ -1,11 +1,19 @@
 package com.medalyze;
 
-import com.medalyze.reporting.*;
 import com.medalyze.appointment.AppointmentCoordinator;
 import com.medalyze.appointment.AppointmentMediator;
-import com.medalyze.model.*;
 import com.medalyze.appointment.Doctor;
 import com.medalyze.appointment.Patient;
+import com.medalyze.model.EmergencyPatientRegistration;
+import com.medalyze.model.InsurancePatientRegistration;
+import com.medalyze.model.MedicalHistoryIterator;
+import com.medalyze.model.PatientMedicalHistory;
+import com.medalyze.model.PatientRegistrationTemplate;
+import com.medalyze.model.RegularPatientRegistration;
+import com.medalyze.reporting.AppointmentReportGenerator;
+import com.medalyze.reporting.BillingReportGenerator;
+import com.medalyze.reporting.MedicalReportGenerator;
+import com.medalyze.reporting.ReportTemplate;
 
 
 public class MainD3 {
@@ -106,6 +114,66 @@ public class MainD3 {
         searchService.setStrategy(new com.medalyze.model.SearchByDateStrategy());
         System.out.println("\nSearch by Date (2026-04-11):");
         System.out.println(searchService.search(data, "2026-04-11"));
+
+        System.out.println();
+
+                // =========================
+        // Test Observer Case: Hospital Event System
+        // =========================
+        System.out.println("=== Observer Case Test: Hospital Event System ===");
+
+        // Get singleton instance (Publisher)
+        com.medalyze.notification.HospitalEventBus eventBus =
+                com.medalyze.notification.HospitalEventBus.getInstance();
+
+        // Create observers (Subscribers)
+        com.medalyze.notification.HospitalObserver patientObserver =
+                new com.medalyze.notification.PatientNotificationObserver();
+
+        com.medalyze.notification.HospitalObserver billingObserver =
+                new com.medalyze.notification.BillingObserver();
+
+        com.medalyze.notification.HospitalObserver auditObserver =
+                new com.medalyze.notification.AuditLogObserver();
+
+        // Subscribe observers
+        eventBus.subscribe(patientObserver);
+        eventBus.subscribe(billingObserver);
+        eventBus.subscribe(auditObserver);
+
+        // Trigger events
+        System.out.println("\nTriggering Event: Patient Admitted");
+        eventBus.notifyObservers("Patient admitted to hospital");
+
+        System.out.println("\nTriggering Event: Payment Completed");
+        eventBus.notifyObservers("Patient payment completed");
+
+        // Unsubscribe one observer
+        System.out.println("\nUnsubscribing Billing Observer...");
+        eventBus.unsubscribe(billingObserver);
+
+        // Trigger another event
+        System.out.println("\nTriggering Event: Patient Discharged");
+        eventBus.notifyObservers("Patient discharged");
+
+        System.out.println();
+
+        // =========================
+        // Test Iterator Case 1: Patient Medical History
+        // =========================
+        System.out.println("=== Iterator Case 1 Test: Patient Medical History ===");
+
+        PatientMedicalHistory history = new PatientMedicalHistory();
+        history.addRecord("2026-01-10 - Diagnosed with hypertension");
+        history.addRecord("2026-02-15 - Started diabetes treatment");
+        history.addRecord("2026-03-20 - Follow-up visit completed");
+
+        MedicalHistoryIterator iterator = history.createIterator();
+
+        System.out.println("Patient Medical History Records:");
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
+        }
 
         System.out.println();
         
