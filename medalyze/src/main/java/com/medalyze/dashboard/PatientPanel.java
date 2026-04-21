@@ -1,13 +1,13 @@
 package com.medalyze.dashboard;
 
-public class PatientPanel {
-    private DashboardMediator mediator;
+public class PatientPanel extends DashboardPanel {
 
     public PatientPanel(DashboardMediator mediator) {
-        this.mediator = mediator;
+        super(mediator);
     }
 
-    public void update() {
-        mediator.notify("Patient updated");
+    public void updatePatient() {
+        System.out.println("PatientPanel: Patient updated");
+        mediator.notify(this, "patientUpdated");
     }
 }

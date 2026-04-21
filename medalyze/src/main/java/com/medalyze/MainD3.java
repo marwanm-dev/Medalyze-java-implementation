@@ -2,8 +2,8 @@ package com.medalyze;
 
 import com.medalyze.appointment.AppointmentCoordinator;
 import com.medalyze.appointment.AppointmentMediator;
-import com.medalyze.appointment.Doctor;
-import com.medalyze.appointment.Patient;
+import com.medalyze.appointment.*;
+import com.medalyze.dashboard.*;
 import com.medalyze.model.EmergencyPatientRegistration;
 import com.medalyze.model.InsurancePatientRegistration;
 import com.medalyze.model.MedicalHistoryIterator;
@@ -63,6 +63,54 @@ public class MainD3 {
         System.out.println();
 
         // =========================
+        // Test Mediator Case 1: Appointment Scheduling
+        // =========================
+        System.out.println("=== Mediator Case 1 Test: Appointment Scheduling ===");
+
+        AppointmentCoordinator mediator = new AppointmentCoordinator();
+
+        DoctorComponent doctor = new DoctorComponent(mediator);
+        PatientComponent patientComp = new PatientComponent(mediator);
+        RoomComponent room = new RoomComponent(mediator);
+        BillingComponent billing = new BillingComponent(mediator);
+
+        // Set components inside mediator
+        mediator.setDoctor(doctor);
+        mediator.setPatient(patientComp);
+        mediator.setRoom(room);
+        mediator.setBilling(billing);
+
+        // Trigger interaction
+        System.out.println("Patient initiates appointment:");
+        patientComp.requestAppointment();
+
+        System.out.println();
+
+        // =========================
+        // Test Mediator Case 2: Dashboard Coordination
+        // =========================
+        System.out.println("=== Mediator Case 2 Test: Dashboard Coordination ===");
+
+        HospitalDashboard dashboard = new HospitalDashboard();
+
+        PatientPanel patientPanel = new PatientPanel(dashboard);
+        AppointmentPanel appointmentPanel = new AppointmentPanel(dashboard);
+        NotificationPanel notificationPanel = new NotificationPanel(dashboard);
+        BillingPanel billingPanel = new BillingPanel(dashboard);
+
+        // Register panels in mediator
+        dashboard.setPatientPanel(patientPanel);
+        dashboard.setAppointmentPanel(appointmentPanel);
+        dashboard.setNotificationPanel(notificationPanel);
+        dashboard.setBillingPanel(billingPanel);
+
+        // Trigger event
+        System.out.println("Updating patient through PatientPanel:");
+        patientPanel.updatePatient();
+
+        System.out.println();
+
+        // =========================
         // Test Strategy Case 1: Payment Processing
         // =========================
         System.out.println("=== Strategy Case 1 Test: Payment Processing ===");
@@ -117,7 +165,7 @@ public class MainD3 {
 
         System.out.println();
 
-                // =========================
+        // =========================
         // Test Observer Case: Hospital Event System
         // =========================
         System.out.println("=== Observer Case Test: Hospital Event System ===");
@@ -178,14 +226,5 @@ public class MainD3 {
         System.out.println();
         
         System.out.println("\n=== Deliverable 3 Completed Successfully ===");
-
-        // ===== MEDIATOR TEST (APPOINTMENT) =====
-        AppointmentMediator mediator = new AppointmentCoordinator();
-        
-        Doctor doctor = new Doctor(mediator);
-        Patient patient = new Patient(mediator);
-        
-        patient.bookAppointment();
-        doctor.requestAppointment();
     }
 }

@@ -1,5 +1,5 @@
 package com.medalyze.dashboard;
 
 public interface DashboardMediator {
-    void notify(String event);
+    void notify(DashboardPanel sender, String event);
 }

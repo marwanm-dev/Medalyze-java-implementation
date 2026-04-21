@@ -1,9 +1,12 @@
 package com.medalyze.dashboard;
 
-public class BillingPanel {
-    private DashboardMediator mediator;
+public class BillingPanel extends DashboardPanel {
 
     public BillingPanel(DashboardMediator mediator) {
-        this.mediator = mediator;
+        super(mediator);
+    }
+
+    public void refresh() {
+        System.out.println("BillingPanel: Refreshing billing info...");
     }
 }

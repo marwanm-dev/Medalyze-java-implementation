@@ -1,9 +1,12 @@
 package com.medalyze.dashboard;
 
-public class NotificationPanel {
-    private DashboardMediator mediator;
+public class NotificationPanel extends DashboardPanel {
 
     public NotificationPanel(DashboardMediator mediator) {
-        this.mediator = mediator;
+        super(mediator);
+    }
+
+    public void showNotification(String message) {
+        System.out.println("NotificationPanel: " + message);
     }
 }
