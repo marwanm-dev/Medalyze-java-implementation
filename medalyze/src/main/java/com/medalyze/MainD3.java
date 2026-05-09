@@ -1,7 +1,5 @@
 package com.medalyze;
 
-import com.medalyze.appointment.AppointmentCoordinator;
-import com.medalyze.appointment.AppointmentMediator;
 import com.medalyze.appointment.*;
 import com.medalyze.dashboard.*;
 import com.medalyze.model.EmergencyPatientRegistration;
