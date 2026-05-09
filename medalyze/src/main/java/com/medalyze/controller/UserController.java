@@ -34,4 +34,18 @@ public class UserController {
     ) {
         return userService.createUser(user);
     }
+
+    @PutMapping("/{id}")
+    public UserDTO updateUser(
+            @PathVariable Long id,
+            @RequestBody UserDTO user
+    ) {
+        return userService.updateUser(id, user);
+    }
+
+    @DeleteMapping("/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void deleteUser(@PathVariable Long id) {
+        userService.deleteUser(id);
+    }
 }

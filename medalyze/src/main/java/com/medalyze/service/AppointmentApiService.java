@@ -1,6 +1,8 @@
 package com.medalyze.service;
 
 import com.medalyze.dto.AppointmentDTO;
+import com.medalyze.model.Appointment;
+
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -39,5 +41,23 @@ public class AppointmentApiService {
         appointment.setId((long) (appointments.size() + 1));
         appointments.add(appointment);
         return appointment;
+    }
+
+    public AppointmentDTO updateAppointment(Long id, AppointmentDTO updatedAppointment) {
+      for (AppointmentDTO appointment : appointments) {
+          if (appointment.getId().equals(id)) {
+              appointment.setPatientId(updatedAppointment.getPatientId());
+              appointment.setDoctorId(updatedAppointment.getDoctorId());
+              appointment.setAppointmentDate(updatedAppointment.getAppointmentDate());
+              appointment.setAppointmentTime(updatedAppointment.getAppointmentTime());
+              appointment.setStatus(updatedAppointment.getStatus());
+              return appointment;
+          }
+      }
+    return null;
+    }
+
+    public boolean deleteAppointment(Long id) {
+      return appointments.removeIf(a -> a.getId().equals(id));
     }
 }
